@@ -18,4 +18,14 @@ class Person {
     public String getFirstName() {
         return firstName;
     }
+
+    private final String lastName;
+
+    public Person(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
 }
